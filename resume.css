@@ -1,0 +1,58 @@
+/* Riley Entry, Web 210, Assignment 3 */
+
+/* COLOR PALLETTE FROM COOLORS.CO*/
+ /* 006d77 - Dark green */ 
+ /* 83c5be - Fern green */
+ /* edf6f9 - Mint white */
+ /* ffddd2 - Light terracotta */
+ /* e29578 - Terracotta */
+ /* black */
+
+body {
+    font-family: "Helvetica" sans-serif;
+    background-color: #e29578;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+header {
+    font-variant: small-caps;
+    padding: 2px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+h1, h2, h3 {
+    color: #edf6f9;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: medium;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+a { color: #edf6f9;
+    background: #006d77;
+    text-decoration: none;
+    padding:5px;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-family: "Helvetica" sans-serif;
+}
+
+.footer {
+    padding: 5px;
+    font-style: italic;
+    list-style-type: none;
+}
