@@ -1,0 +1,123 @@
+/* Riley Entry, Web 210, Assignment 4 */
+
+/* COLOR PALLETTE FROM COOLORS.CO*/
+ /* ffb5a7 - Salmon */ 
+ /* fcd5ce - Blush */
+ /* f8edeb - Beige */
+ /* f9dcc4 - Sand */
+ /* fec89a - Terracotta */
+ /* black */
+
+/* Global Styling--------------------------------------*/
+
+body {
+    font-family: "Helvetica" sans-serif;
+    background-color: #ffb5a7;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+header {
+    font-variant: small-caps;
+    padding: 2px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+/* Small text under name header*/
+#desc {
+    font-family: "Helvetica" sans-serif;
+    text-align: center;
+    font-variant: normal;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px gray;
+}
+
+/* Shadow under 'line features specialist'*/
+#h2 {
+    color: white;
+    text-shadow: 2px 2px 5px gray;
+}
+
+h2, h3 {
+    color: black
+}
+
+p {
+    line-height: 1.5;
+    font-size: medium;
+}
+
+a { color: black;
+    background: #fec89a;
+    text-decoration: none;
+    border-radius: 20px;
+    padding:5px;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Work Experience------------------------------------*/
+
+.work-experience {
+    background: #fcd5ce;
+}
+
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
+/*Projects-----------------------------------------*/
+
+.projects {
+    background-color: #f8edeb;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+}
+
+/*Education-----------------------------------------*/
+
+.education {
+    background-image: url("pencils.jpg");
+    background-color: #006d77;
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+
+.education p {
+    width: 60%;
+}
+
+/*Footer-----------------------------------------*/
+
+footer {
+    border-top: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-family: "Helvetica" sans-serif;
+    background-color: #f9dcc4;
+}
+
+.footer {
+    padding: 5px;
+    font-style: italic;
+    list-style-type: none;
+}
